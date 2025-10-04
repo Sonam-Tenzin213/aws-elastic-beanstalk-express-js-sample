@@ -1,0 +1,15 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+Dockerfile*
+.dockerignore
+coverage
+dist
+.env
+
+# Exclude CI/scanner artifacts so they don't end up in the runtime image
+bin
+dependency-check
+dependency-check.zip
+dependency-check-report
